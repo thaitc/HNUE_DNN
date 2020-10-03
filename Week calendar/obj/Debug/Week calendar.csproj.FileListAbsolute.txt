@@ -1,0 +1,7 @@
+D:\DNN\bin\Week calendar.dll.config
+D:\DNN\bin\Week calendar.dll
+D:\DNN\bin\Week calendar.pdb
+D:\DNN\DesktopModules\Week calendar\obj\Debug\Week calendar.csproj.CoreCompileInputs.cache
+D:\DNN\DesktopModules\Week calendar\obj\Debug\Week calendar.csproj.CopyComplete
+D:\DNN\DesktopModules\Week calendar\obj\Debug\Week calendar.dll
+D:\DNN\DesktopModules\Week calendar\obj\Debug\Week calendar.pdb

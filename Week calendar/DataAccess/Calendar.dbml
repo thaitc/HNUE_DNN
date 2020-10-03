@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dnn" Class="CalendarDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-0V2N8HE\MSSQLSERVER1;Initial Catalog=dnn;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SiteSqlServer" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CALENDAR_MANAGER" Member="CALENDAR_MANAGERs">
+    <Type Name="CALENDAR_MANAGER">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Titel" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="[Update]" Member="Update" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="[Update by]" Member="Update_by" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>
