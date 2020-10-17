@@ -30,7 +30,7 @@ namespace Week_calendar
             PagedDataSource pgitems = new PagedDataSource();
             pgitems.DataSource = db.CALENDAR_MANAGERs.OrderByDescending(i => i.Id).Skip(1).ToList();
             pgitems.AllowPaging = true;
-            pgitems.PageSize = 2;
+            pgitems.PageSize = 5;
             pgitems.CurrentPageIndex = PageNumber;
             if (pgitems.PageCount > 1)
             {

@@ -5,3 +5,4 @@ D:\DNN\DesktopModules\Week calendar\obj\Debug\Week calendar.csproj.CoreCompileIn
 D:\DNN\DesktopModules\Week calendar\obj\Debug\Week calendar.csproj.CopyComplete
 D:\DNN\DesktopModules\Week calendar\obj\Debug\Week calendar.dll
 D:\DNN\DesktopModules\Week calendar\obj\Debug\Week calendar.pdb
+D:\DNN\DesktopModules\Week calendar\obj\Debug\Week calendar.csprojAssemblyReference.cache

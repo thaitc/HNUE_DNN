@@ -80,8 +80,10 @@
     <Content Include="Calendar_Edit.ascx" />
     <Content Include="Calendar_List.ascx" />
     <Content Include="Manager.ascx" />
+    <Content Include="Navs.ascx" />
     <Content Include="View.ascx" />
     <Content Include="View_Calendar.ascx" />
+    <Content Include="View_Navs.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +123,13 @@
     <Compile Include="Manager.ascx.designer.cs">
       <DependentUpon>Manager.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Navs.ascx.cs">
+      <DependentUpon>Navs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Navs.ascx.designer.cs">
+      <DependentUpon>Navs.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View.ascx.cs">
       <DependentUpon>View.ascx</DependentUpon>
@@ -135,6 +144,13 @@
     </Compile>
     <Compile Include="View_Calendar.ascx.designer.cs">
       <DependentUpon>View_Calendar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="View_Navs.ascx.cs">
+      <DependentUpon>View_Navs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View_Navs.ascx.designer.cs">
+      <DependentUpon>View_Navs.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

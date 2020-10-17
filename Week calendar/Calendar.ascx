@@ -17,19 +17,16 @@
         </div>
         <hr />
         <div class="col-md-12">
-            <table class="list-group ">
-                <tr>
-                    <th><a style="color: white" class="list-group-item list-group-item-action active">Kế hoạch tuần khác</a></th>
-                </tr>
-                <asp:Repeater runat="server" ID="rptTuyensinh">
-                    <ItemTemplate>
-                        <tr>
-                            <td>
-                                <asp:LinkButton class="list-group-item list-group-item-action" runat="server" ID="bt_View" OnClick="bt_View_Click" CommandArgument='<%# Bind("Id") %>'><%# Eval("Titel") %></asp:LinkButton></td>
-                        </tr>
-                    </ItemTemplate>
-                </asp:Repeater>
-            </table>
+            <h3>Kế hoạch tuần khác</h3>
+            <asp:Repeater runat="server" ID="rptTuyensinh">
+                <ItemTemplate>
+                    <ul style="line-height:90%;list-style-type:disc">
+                        <li >
+                            <asp:LinkButton runat="server" ID="bt_View" OnClick="bt_View_Click" CommandArgument='<%# Bind("Id") %>'><%# Eval("Titel") %></asp:LinkButton>
+                        </li>
+                    </ul>
+                </ItemTemplate>
+            </asp:Repeater>
             <br />
             <asp:Label runat="server" ID="lb_total"></asp:Label>
             <div style="overflow: hidden;">
