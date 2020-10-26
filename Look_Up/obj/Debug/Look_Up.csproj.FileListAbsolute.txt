@@ -1,0 +1,7 @@
+D:\DNN\bin\Look_Up.dll.config
+D:\DNN\bin\Look_Up.dll
+D:\DNN\bin\Look_Up.pdb
+D:\DNN\DesktopModules\Look_Up\obj\Debug\Look_Up.csproj.CoreCompileInputs.cache
+D:\DNN\DesktopModules\Look_Up\obj\Debug\Look_Up.csproj.CopyComplete
+D:\DNN\DesktopModules\Look_Up\obj\Debug\Look_Up.dll
+D:\DNN\DesktopModules\Look_Up\obj\Debug\Look_Up.pdb

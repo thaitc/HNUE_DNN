@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dnn" Class="LookUpDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-0V2N8HE\MSSQLSERVER1;Initial Catalog=dnn;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SiteSqlServer" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.nguvan_lookup" Member="nguvan_lookups">
+    <Type Name="nguvan_lookup">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Instructor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Author" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Year" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Keys" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Origin" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LibraryID" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="TabID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>
